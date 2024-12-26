@@ -1,4 +1,4 @@
-# Interface Gráfica para Configurações no Hyprland
+# Interface Gráfica para Configurações no Hyprland 
 
 Este programa, desenvolvido em Python com Qt5, oferece uma interface gráfica intuitiva para facilitar alterações nos arquivos de configuração do Hyprland, hyprpaper e Waybar.
 
