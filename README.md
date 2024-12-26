@@ -165,3 +165,12 @@ touch ~/.config/waybar/accent-color.css
     margin: 4px 4px;
 }
 ```
+
+## Como executar o programa?
+
+Devido o programa depender do **pyqt5** é necessário usar o caminho do Python que foi instalado no ambiente virtual. Segue abaixo o comando baseado na estrutura de arquivos criada:
+```
+$HOME/.scripts/venv/bin/python $HOME/.scripts/hypr/config.py
+```
+Se desejar integrar o script a um módulo da Waybar, use o arquivo `launcher.sh` deste repositório:
+https://github.com/SobDex/hypr/blob/main/launcher.sh
