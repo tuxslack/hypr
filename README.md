@@ -33,6 +33,7 @@ Este é o local recomendado para armazenar o programa e mantê-lo organizado. Ex
 ```
 cd ~
 mkdir .scripts
+cd ~/.scripts
 git clone https://github.com/SobDex/hypr ~/.scripts/hypr
 ```
 - Dê permissão de execução para os shell scripts do programa:
