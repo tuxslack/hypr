@@ -140,3 +140,25 @@ source = ~/.config/hypr/config.d/borders.conf
 source = ~/.config/hypr/config.d/keybinds.conf
 source = ~/.config/hypr/config.d/rules.conf
 ```
+### Estrutura de arquivos da Waybar
+
+- crie um novo arquivo .css no diretório de configuração da Waybar:
+
+```
+touch ~/.config/waybar/accent-color.css
+```
+- Adicione na primeira linha do arquivo `~/.config/waybar/style.css` o código importará o estilo do arquivo criado:
+```
+@import url('accent-color.css');
+```
+- Recorte do arquivo ~/.config/waybar/style.css a o bloco de código: `#workspaces button`:
+```
+#workspaces button {
+    color: #44CDEE;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px 7px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    margin: 4px 4px;
+}
+```
