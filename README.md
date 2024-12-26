@@ -22,11 +22,12 @@ https://github.com/SobDex/ArchLinux-Hyprland
 Antes de começar, instale os seguintes pacotes. Eles são essenciais para que o programa funcione corretamente:
 
 ```
-sudo pacman -S --needed git imagemagick
+sudo pacman -S --needed git imagemagick zenity
 ```
 - git: Necessário para clonar o repositório do programa.
 - imagemagick: Utilizado para manipulação de imagens, como a troca de papéis de parede.
-
+- zenity: Exibe caixas de diálogos
+  
 ### 2. Estrutura de arquivos do programa
 
 Os arquivos do programa precisam ser organizados em uma estrutura específica para garantir que funcionem corretamente.
