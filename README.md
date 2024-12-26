@@ -14,7 +14,7 @@ Aviso: Este programa faz parte de uma série de vídeos no meu canal no YouTube 
 
 ## Requerimentos para instalação
 
-Caso seja necessário, você pode visitar o repositório do projeto para acessar a configuração atual do meu sistema, incluindo os arquivos de configuração tanto do Hyprland quanto da Waybar. Isso pode ser útil para entender a estrutura e as personalizações feitas, além de fornecer exemplos prontos para o seu uso.
+Caso seja necessário, **você pode visitar o repositório do projeto para acessar a configuração atual do meu sistema**, incluindo os arquivos de configuração tanto do Hyprland quanto da Waybar. Isso pode ser útil para entender a estrutura e as personalizações feitas, além de fornecer exemplos prontos para o seu uso.
 https://github.com/SobDex/ArchLinux-Hyprland
 
 ### 1. Pacotes necessários
@@ -154,7 +154,7 @@ touch ~/.config/waybar/accent-color.css
 ```
 @import url('accent-color.css');
 ```
-- Recorte do arquivo ~/.config/waybar/style.css a o bloco de código: `#workspaces button`:
+- Recorte do arquivo `~/.config/waybar/style.css` a o bloco de código: `#workspaces button`:
 ```
 #workspaces button {
     color: #44CDEE;
