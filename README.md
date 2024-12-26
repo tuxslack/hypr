@@ -2,6 +2,10 @@
 
 Este programa, desenvolvido em Python com Qt5, oferece uma interface gráfica intuitiva para facilitar alterações nos arquivos de configuração do Hyprland, hyprpaper e Waybar.
 
+<p align="center">
+  <img src="https://github.com/SobDex/hypr/blob/main/config-py.png" alt="Interface Gráfica Hyprland" width="600">
+</p>
+
 Com ele, você pode:
 
 - Alterar o papel de parede do sistema.
