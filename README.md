@@ -99,10 +99,10 @@ Use o comando `touch` para criar os arquivos de configuração:
 cd ~/.config/hypr/config.d
 touch borders.conf colors.conf keybinds.conf rules.conf
 ```
-borders.conf: Para configurações de bordas.
-colors.conf: Para definições de cores.
-keybinds.conf: Para atalhos de teclado.
-rules.conf: Para regras de janela.
+- borders.conf: Para configurações de bordas.
+- colors.conf: Para definições de cores.
+- keybinds.conf: Para atalhos de teclado.
+- rules.conf: Para regras de janela.
 
 Edite os arquivos criados:
 Use um editor de texto para adicionar o conteúdo necessário em cada arquivo:
