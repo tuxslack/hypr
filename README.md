@@ -187,3 +187,17 @@ $HOME/.scripts/venv/bin/python $HOME/.scripts/hypr/config.py
 ```
 Se desejar integrar o script a um módulo da Waybar, use o arquivo `launcher.sh` deste repositório:
 https://github.com/SobDex/hypr/blob/main/launcher.sh
+
+## Tema da Aplicação
+O aplicativo foi desenvolvido no tema arc-dark do pacote `arc-gtk-theme`, caso deseje trocar de tema, por enquanto o uso do `sed` é a melhor opção. Veja abaixo um exemplo para mudar o tema para o tema Adwaita-dark:
+
+```
+sed -i "s/#2f343f/#1e1e1e/g" ~/.scripts/hypr/config.ui \
+&& sed -i "s/#383c4a/#242424/g" ~/.scripts/hypr/config.ui \
+&& sed -i "s/#404552/#303030/g" ~/.scripts/hypr/config.ui \
+&& sed -i "s/#505567/#383838/g" ~/.scripts/hypr/config.ui \
+&& sed -i "s/#2d303b/#101010/g" ~/.scripts/hypr/config.ui \
+&& sed -i "s/#383c4a/#303030/g" ~/.scripts/hypr/config.py \
+&& sed -i "s/#556077/#505050/g" ~/.scripts/hypr/config.py
+```
+Faça um backup dos arquivos `~/.scripts/hypr/config.py` e `~/.scripts/hypr/config.ui` antes de executar os comandos `sed` se preferir.
