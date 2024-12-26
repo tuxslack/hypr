@@ -10,7 +10,6 @@ import subprocess
 home_dir = os.path.expanduser("~")
 
 # Caminho para arquivos de configurações
-# Este programa basicamente usa a interface gráfica para editar os seguintes arquivos abaixo:
 colors_conf = f"{home_dir}/.config/hypr/config.d/colors.conf"
 borders_conf = f"{home_dir}/.config/hypr/config.d/borders.conf"
 waybar_style = f"{home_dir}/.config/waybar/accent-color.css"
