@@ -24,11 +24,11 @@ sudo pacman -S --needed git imagemagick
 - git: Necessário para clonar o repositório do programa.
 - imagemagick: Utilizado para manipulação de imagens, como a troca de papéis de parede.
 
-### Estrutura de arquivos do programa
+### 2. Estrutura de arquivos do programa
 
 Os arquivos do programa precisam ser organizados em uma estrutura específica para garantir que funcionem corretamente.
 
-- Clone o repositório no diretório ~/.scripts:
+- Clone o repositório no diretório `~/.scripts`:
 Este é o local recomendado para armazenar o programa e mantê-lo organizado. Execute os comandos abaixo:
 ```
 cd ~
@@ -42,11 +42,11 @@ cd ~/.scripts/hypr
 chmod +x *.sh
 ```
 
-### Criar ambiente virtual Python
+### 3. Criar ambiente virtual Python
 
 Para isolar as dependências do programa, é necessário criar um ambiente virtual Python:
 
-- Navegue até o diretório .scripts:
+- Navegue até o diretório `.scripts`:
 ```
 cd ~/.scripts
 ```
@@ -77,7 +77,7 @@ deactivate
 ```
 Isso desativa o ambiente virtual e retorna ao sistema padrão.
 
-### Estrutura dos arquivos do Hyprland
+### 4. Estrutura dos arquivos do Hyprland
 
 Para que o programa funcione corretamente, é necessário que o Hyprland use uma estrutura de arquivos de configuração separada.
 
@@ -90,7 +90,7 @@ mkdir ~/.config/hypr/config.d
 ```
 
 - Crie os arquivos necessários:
-Use o comando touch para criar os arquivos de configuração:
+Use o comando `touch` para criar os arquivos de configuração:
 
 cd ~/.config/hypr/config.d
 touch borders.conf colors.conf keybinds.conf rules.conf
@@ -140,7 +140,7 @@ source = ~/.config/hypr/config.d/borders.conf
 source = ~/.config/hypr/config.d/keybinds.conf
 source = ~/.config/hypr/config.d/rules.conf
 ```
-### Estrutura de arquivos da Waybar
+### 5. Estrutura de arquivos da Waybar
 
 - crie um novo arquivo .css no diretório de configuração da Waybar:
 
