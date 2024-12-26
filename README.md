@@ -58,7 +58,7 @@ Crie o ambiente virtual:
 ```
 python -m venv venv
 ```
-Isso cria uma pasta chamada venv dentro de .scripts, que conterá todas as dependências necessárias para o programa.
+Isso cria uma pasta chamada `venv` dentro de `~/.scripts`, que conterá todas as dependências necessárias para o programa.
 
 - Instalar PyQt5 no ambiente virtual Python
 
