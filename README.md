@@ -92,7 +92,7 @@ No arquivo principal de configuração do Hyprland, é possível incluir arquivo
 mkdir ~/.config/hypr/config.d
 ```
 
-- Crie os arquivos necessários:
+#### Crie os arquivos necessários:
 Use o comando `touch` para criar os arquivos de configuração:
 
 ```
@@ -104,17 +104,20 @@ touch borders.conf colors.conf keybinds.conf rules.conf
 - keybinds.conf: Para atalhos de teclado.
 - rules.conf: Para regras de janela.
 
-Edite os arquivos criados:
+#### Edite os arquivos criados:
+
 Use um editor de texto para adicionar o conteúdo necessário em cada arquivo:
 
-colors.conf:
+#### colors.conf:
+
 Defina as cores principais do sistema:
 ```
 $COR1=33ccffee
 $COR2=00ff99ee
 ```
 
-borders.conf:
+#### borders.conf:
+
 Configure o tamanho e o arredondamento das bordas:
 
 ```
@@ -122,7 +125,8 @@ $SIZE=3
 $RADIUS=8
 ```
 
-keybinds.conf:
+#### keybinds.conf:
+
 Este arquivo é usado para configurar atalhos de teclado do Hyprland. Exemplo:
 
 ```
@@ -130,14 +134,15 @@ $mainMod=SUPER
 # Adicione aqui seus atalhos de teclado
 ```
 
-rules.conf:
+#### rules.conf:
+
 Configure regras para as janelas do Hyprland. Exemplo:
 ```
 windowrule = float, ^(psensor)$
 ```
 
-Inclua os arquivos no arquivo principal de configuração do Hyprland:
-Adicione as linhas abaixo no arquivo principal do Hyprland para carregar os arquivos criados:
+#### Inclua os arquivos no arquivo principal de configuração do Hyprland:
+Adicione as linhas abaixo no arquivo principal do Hyprland `~/.config/hypr/hyprland.conf`, para carregar os arquivos criados:
 ```
 source = ~/.config/hypr/config.d/colors.conf
 source = ~/.config/hypr/config.d/borders.conf
