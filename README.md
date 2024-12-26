@@ -95,9 +95,10 @@ mkdir ~/.config/hypr/config.d
 - Crie os arquivos necessários:
 Use o comando `touch` para criar os arquivos de configuração:
 
+```
 cd ~/.config/hypr/config.d
 touch borders.conf colors.conf keybinds.conf rules.conf
-
+```
 borders.conf: Para configurações de bordas.
 colors.conf: Para definições de cores.
 keybinds.conf: Para atalhos de teclado.
