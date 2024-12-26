@@ -161,7 +161,7 @@ touch ~/.config/waybar/accent-color.css
 ```
 @import url('accent-color.css');
 ```
-- Recorte do arquivo `~/.config/waybar/style.css` a o bloco de código: `#workspaces button` e cole no aquivo css `~/.config/waybar/accent-color.css`:
+- Recorte do arquivo `~/.config/waybar/style.css` o bloco de código: `#workspaces button` e cole no aquivo css `~/.config/waybar/accent-color.css`. Exemplo:
 ```
 #workspaces button {
     color: #44CDEE;
