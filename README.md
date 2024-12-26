@@ -14,6 +14,8 @@ Com ele, você pode:
 - Acessar facilmente as configurações de atalhos de teclado e regras de janela no editor de texto.
 - Exibir informações detalhadas do sistema.
 
+Existe um vídeo no Youtube sobre a aplicação: https://youtu.be/7O0chbY-NMk
+
 **Aviso**: Este programa faz parte de uma série de vídeos no meu canal no YouTube sobre Arch Linux + Hyprland. Por isso, as instruções aqui fornecidas são baseadas no repositório oficial do Arch Linux e seus pacotes. Certifique-se de estar usando o Arch Linux ou uma de suas derivadas para garantir a compatibilidade. Isso não significa que o programa não funcionará em outras distribuições Linux. No entanto, pode ser necessário realizar alguns ajustes e ter conhecimento sobre os pacotes disponíveis nos repositórios específicos da distribuição que você está utilizando.
 
 ## Requerimentos para instalação
