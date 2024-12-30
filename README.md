@@ -4,8 +4,9 @@ Este programa, desenvolvido em Python com Qt5, oferece uma interface gráfica in
 
 <p align="center">
   <img src="https://github.com/SobDex/hypr/blob/main/config-py.png" alt="Interface Gráfica Hyprland" width="600">
+  
 </p>
-
+  
 Com ele, você pode:
 
 - Alterar o papel de parede do sistema.
@@ -15,6 +16,8 @@ Com ele, você pode:
 - Exibir informações detalhadas do sistema.
 
 Existe um vídeo no Youtube sobre a aplicação: https://youtu.be/7O0chbY-NMk
+
+  [![Interface Gráfica para configurações do Hyprland](https://img.youtube.com/vi/7O0chbY-NMk/0.jpg)](https://www.youtube.com/watch?v=7O0chbY-NMk)
 
 **Aviso**: Este programa faz parte de uma série de vídeos no meu canal no YouTube sobre Arch Linux + Hyprland. Por isso, as instruções aqui fornecidas são baseadas no repositório oficial do Arch Linux e seus pacotes. Certifique-se de estar usando o Arch Linux ou uma de suas derivadas para garantir a compatibilidade. Isso não significa que o programa não funcionará em outras distribuições Linux. No entanto, pode ser necessário realizar alguns ajustes e ter conhecimento sobre os pacotes disponíveis nos repositórios específicos da distribuição que você está utilizando.
 
